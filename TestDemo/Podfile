@@ -1,0 +1,24 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+workspace 'TestDemo.xcworkspace'
+
+target 'TestDemo' do
+
+  project 'TestDemo/TestDemo.xcodeproj'
+
+  pod 'AFNetworking'
+
+  pod 'SVProgressHUD'
+
+end
+
+target 'ShowText' do
+  project 'ShowText/ShowText.xcodeproj'
+
+  pod 'AFNetworking'
+
+  pod 'SVProgressHUD'
+
+end
